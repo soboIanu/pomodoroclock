@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Pomodoro Clock</title>
+    <link rel="icon" href="resources/clock.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  </head>
+  <body>
+    <div id="titre">
+      <h1>Pomodoro Clock</h1>
+    </div>
+      <br><br>
+    <div id="settings">
+      <table>
+        <tr class="list1">
+          <th>Session</th>
+        </tr>
+        <tr>
+          <th><img src="resources/down.png" id="minutesDownSession"></img></th>
+          <th id="minutesSession">25</th>
+          <th><img src="resources/up.png" id="minutesUpSession"></img></th>
+        </tr>
+      </table>
+      <table>
+        <tr class="list2">
+          <th>Break</th>
+        </tr>
+        <tr>
+          <th><img src="resources/down.png" id="minutesDownBreak"></img></th>
+          <th id="minutesBreak">5</th>
+          <th><img src="resources/up.png" id="minutesUpBreak"></img></th>
+        </tr>
+      </table>
+
+
+    </div>
+      <br><br>
+    <div id="timer">
+      <table id="table2">
+        <tr>
+          <th class="icons"><img src="resources/play.png" id="play"></img></th>
+          <th class="icons"><img src="resources/refresh.png" id="refresh"></img></th>
+        </tr>
+        <tr><th class="icons">Session</th></tr>
+        <tr><th class="icons" style="font-size: 50px">25:00</th></tr>
+        <tr>
+          <th class="icons"><img src="resources/pause.png" id="pause"></img></th>
+          <th class="icons"><img src="resources/stop.png" id="stop"></img></th>
+        </tr>
+      </table>
+
+
+    </div>
+
+
+
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/clock.js"></script>
+  </body>
+</html>
